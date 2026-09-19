@@ -1,0 +1,229 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Jackie Findlay — singer, songwriter and storyteller." />
+  <title>Jackie Findlay | Singer • Songwriter • Storyteller</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="preview-banner">Website Preview — design and content are still being refined</div>
+  <header class="site-header" id="top">
+    <a class="brand" href="#top" aria-label="Jackie Findlay home">Jackie Findlay <span class="leaf">❧</span></a>
+    <button class="menu-toggle" aria-label="Open menu" aria-expanded="false">☰</button>
+    <nav class="nav" aria-label="Main navigation">
+      <a href="#home">Home</a>
+      <a href="#music">Music</a>
+      <a href="#videos">Videos</a>
+      <a href="#about">About</a>
+      <a href="#live">Live</a>
+      <a href="#photos">Photos</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <div class="social-top" aria-label="Social media">
+      <a href="https://www.facebook.com/JackieFindlayMusic" target="_blank" rel="noopener">f</a>
+      <a href="https://www.instagram.com/jackiefindlay1111/" target="_blank" rel="noopener">◎</a>
+      <a href="https://www.youtube.com/@jackiefindlay1264" target="_blank" rel="noopener">▶</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="home" aria-label="Jackie Findlay introduction">
+      <img class="hero-image" src="assets/images/hero.webp" alt="Jackie Findlay playing acoustic guitar in warm evening light" />
+      <div class="hero-shade"></div>
+      <div class="hero-copy">
+        <p class="eyebrow">Music connects us</p>
+        <h1>Jackie<br />Findlay</h1>
+        <p class="role">Singer • Songwriter • Storyteller</p>
+        <p class="hero-line">Songs shaped by life,<br />love, loss and hope.</p>
+        <div class="hero-actions">
+          <a class="button gold" href="#music">▶ &nbsp; Listen to the Music</a>
+          <a class="button outline-light" href="#videos">▷ &nbsp; Watch the Videos</a>
+        </div>
+      </div>
+      <div class="hero-note">Better<br />Songs<br />Brighter<br />Tomorrows ♡</div>
+      <div class="hero-words">PEOPLE<br />STORIES<br />PLACES<br />SONGS<br /><strong>ALWAYS MATTER</strong></div>
+    </section>
+
+    <section class="album section" id="music">
+      <div class="album-cover-wrap">
+        <img class="album-cover" src="assets/images/blue-pearl-cover.jpg" alt="Blue Pearl album cover by Jackie Findlay" />
+      </div>
+      <div class="album-main">
+        <p class="eyebrow dark">Latest album</p>
+        <h2>Blue Pearl</h2>
+        <p class="lead">A collection of songs born from real life — moments of letting go, finding peace and discovering beauty again. Honest, heartfelt and hopeful, these songs invite you to slow down, listen and feel.</p>
+        <div class="player-card">
+          <button id="mainPlay" class="round-play" aria-label="Play or pause current track">▶</button>
+          <div class="player-meta">
+            <strong id="nowPlaying">Billy</strong>
+            <input id="seek" type="range" min="0" max="100" value="0" aria-label="Audio position" />
+            <div class="time-row"><span id="currentTime">0:00</span><span id="duration">4:06</span></div>
+          </div>
+          <audio id="audio" preload="none"></audio>
+        </div>
+        <div class="album-actions">
+          <button class="button navy" id="listenAlbum">♫ &nbsp; Listen</button>
+          <button class="button outline-dark buy-placeholder" data-buy="album">Buy Album — CAD $9.99</button>
+          <a class="button outline-dark" href="#videos">▶ &nbsp; Watch Videos</a>
+        </div>
+      </div>
+      <div class="track-panel">
+        <div class="track-panel-head"><span>Blue Pearl</span><span>Digital Album</span></div>
+        <div id="trackList" class="track-list"></div>
+      </div>
+    </section>
+
+    <section class="about section" id="about">
+      <div class="about-image-wrap"><img src="assets/images/portrait.webp" alt="Portrait of Jackie Findlay in warm light" /></div>
+      <div class="about-copy">
+        <p class="eyebrow dark">About Jackie</p>
+        <h2>A Lifetime of Stories</h2>
+        <p>Jackie Findlay is an award-winning Canadian singer-songwriter whose music has been shaped by a lifetime of experience — joy and loss, love and change, resilience, healing and hope.</p>
+        <p>Born and raised in Belleville, Ontario, she began studying classical guitar at fourteen and later expanded her musical education through piano, opera and studies at Queen’s University. After stepping away from music for many years, Jackie eventually found her way back to the guitar, songwriting and performing.</p>
+        <button class="button navy" id="bioToggle" aria-expanded="false">Read Jackie’s Story →</button>
+      </div>
+      <div class="quote-card">
+        <p>“The return felt less like starting over and more like coming home.”</p>
+        <img src="assets/images/signature.png" alt="Jackie Findlay signature" />
+      </div>
+      <div class="full-bio" id="fullBio" hidden>
+        <div class="bio-inner">
+          <h3>Jackie Findlay — Biography</h3>
+          <p>Award-winning singer-songwriter <strong>Jackie Findlay</strong> has always had music at the heart of her life. Her songs are shaped by experience — by joy and loss, love and change, and by the quiet moments of understanding that often reveal themselves only with time. With an expressive voice and a natural gift for storytelling, Jackie creates music that is deeply personal while still finding a connection with the lives of others.</p>
+          <p>Born and raised in <strong>Belleville, Ontario, Canada</strong>, Jackie began studying classical guitar at the age of fourteen. She later continued her studies with the highly respected <strong>Eli Kassner</strong> of the Guitar Academy in Toronto. During those early years, she also began singing and performing at local venues, drawing inspiration from artists who would leave a lasting influence on her musical life, including <strong>Joni Mitchell, Carly Simon, James Taylor, Shawn Phillips</strong>, and classical guitar master <strong>Andrés Segovia</strong>.</p>
+          <p>Music quickly became much more than an interest. Wanting to understand it from every direction, Jackie expanded her studies to include <strong>piano and opera</strong> and later attended the music program at <strong>Queen’s University in Kingston, Ontario</strong>. She participated in songwriting workshops, continued developing her own material, and eventually attracted interest from major music publishers in Nashville with her songwriting and distinctive voice.</p>
+          <p>Jackie later had the opportunity to tour with singer-songwriter <strong>Donna O’Connor</strong> and the band <strong>Hostage</strong>. Her musical journey appeared to be gathering momentum, but life had other plans. She stepped away from what had been a promising young career, and for many years music moved into the background.</p>
+          <p class="bio-emphasis">It never disappeared.</p>
+          <p>The years that followed brought experiences that would eventually become an important part of the artist Jackie is today. There were moments of great happiness, but also periods of loss, sorrow and challenge. Over time, those experiences gave her something that could never have been learned in a classroom: a deeper understanding of life and of the emotions that connect us to one another.</p>
+          <p>Eventually, Jackie found her way back to her first loves — <strong>the guitar, singing, songwriting and performing</strong>.</p>
+          <p class="bio-emphasis">The return felt less like starting over and more like coming home.</p>
+          <p>With a renewed desire to share the songs she had carried with her for so long, Jackie began what she considers the second chapter of her musical life. She returned to recording and performing, bringing with her not only everything she had learned as a musician, but everything she had experienced as a person.</p>
+          <p>That life experience can be heard throughout her music today. Her songs are thoughtful, melodic and honest, often exploring love, loss, resilience, healing, hope and the unexpected turns that shape a life. Rather than trying to fit neatly into one musical category, Jackie allows each song to tell its own story.</p>
+          <p>Returning to the music world only five years ago, Jackie sometimes describes herself as a late bloomer. But she now sees the years and experiences that came before her return very differently:</p>
+          <blockquote>“I’ve always known I was meant to create and share music in my own unique way. What once seemed like setbacks along the journey have really been precious gifts of understanding, healing, awakening and grace.”</blockquote>
+        </div>
+      </div>
+    </section>
+
+    <section class="videos section" id="videos">
+      <div class="section-heading">
+        <div><p class="eyebrow dark">Videos</p><h2>Songs in Pictures</h2></div>
+        <a href="https://www.youtube.com/@jackiefindlay1264" target="_blank" rel="noopener">Watch more on YouTube →</a>
+      </div>
+      <div class="video-grid">
+        <a class="video-card" href="https://youtu.be/Sm8sgrUW9GE" target="_blank" rel="noopener">
+          <div class="thumb"><img src="https://i.ytimg.com/vi/Sm8sgrUW9GE/maxresdefault.jpg" onerror="this.onerror=null;this.src='https://i.ytimg.com/vi/Sm8sgrUW9GE/hqdefault.jpg';" alt="Incredible Story video thumbnail" /><span class="play-badge">▶</span></div>
+          <div class="video-title"><strong>Incredible Story</strong><span>Official Music Video</span></div>
+        </a>
+        <a class="video-card" href="https://youtu.be/imXGlQzFKlM" target="_blank" rel="noopener">
+          <div class="thumb"><img src="https://i.ytimg.com/vi/imXGlQzFKlM/maxresdefault.jpg" onerror="this.onerror=null;this.src='https://i.ytimg.com/vi/imXGlQzFKlM/hqdefault.jpg';" alt="Wonder video thumbnail" /><span class="play-badge">▶</span></div>
+          <div class="video-title"><strong>Wonder</strong><span>Official Music Video</span></div>
+        </a>
+        <a class="video-card" href="https://youtu.be/SPyy5UbPe-c" target="_blank" rel="noopener">
+          <div class="thumb"><img src="https://i.ytimg.com/vi/SPyy5UbPe-c/maxresdefault.jpg" onerror="this.onerror=null;this.src='https://i.ytimg.com/vi/SPyy5UbPe-c/hqdefault.jpg';" alt="Heart Song video thumbnail" /><span class="play-badge">▶</span></div>
+          <div class="video-title"><strong>Heart Song</strong><span>Official Music Video</span></div>
+        </a>
+        <a class="video-card" href="https://youtu.be/X_SKqdirmIA" target="_blank" rel="noopener">
+          <div class="thumb"><img src="https://i.ytimg.com/vi/X_SKqdirmIA/maxresdefault.jpg" onerror="this.onerror=null;this.src='https://i.ytimg.com/vi/X_SKqdirmIA/hqdefault.jpg';" alt="HOME video thumbnail" /><span class="play-badge">▶</span></div>
+          <div class="video-title"><strong>HOME</strong><span>A Journey Back to the Soul</span></div>
+        </a>
+        <a class="video-card" href="https://youtu.be/uQ19908o_dI" target="_blank" rel="noopener">
+          <div class="thumb"><img src="https://i.ytimg.com/vi/uQ19908o_dI/maxresdefault.jpg" onerror="this.onerror=null;this.src='https://i.ytimg.com/vi/uQ19908o_dI/hqdefault.jpg';" alt="Billy video thumbnail" /><span class="play-badge">▶</span></div>
+          <div class="video-title"><strong>Billy</strong><span>Official Music Video</span></div>
+        </a>
+      </div>
+    </section>
+
+    <section class="live" id="live">
+      <div class="live-overlay"></div>
+      <div class="live-inner">
+        <div><p class="eyebrow">Live • Upcoming Show</p><h2>October 17, 2026</h2><p class="live-place">Jackie Findlay Solo Concert</p></div>
+        <div class="live-details"><strong>7:00 PM</strong><br />Free Play Cafe<br />324 Terminal Ave.<br />Nanaimo, B.C.<br /><em>Refreshments Offered</em></div>
+        <a class="button gold" href="mailto:jfindlay011@gmail.com?subject=Jackie%20Findlay%20Solo%20Concert%20-%20October%2017">Concert Details →</a>
+      </div>
+    </section>
+
+    <section class="photos section" id="photos">
+      <div class="section-heading">
+        <div><p class="eyebrow dark">Photos</p><h2>Moments Along the Way</h2></div>
+      </div>
+      <div class="photo-grid">
+        <figure><img src="assets/images/hero.webp" alt="Jackie playing acoustic guitar at sunset" /></figure>
+        <figure><img src="assets/images/live.webp" alt="Jackie performing live with guitar and microphone" /></figure>
+        <figure><img src="assets/images/forest-guitar.webp" alt="Jackie playing guitar outdoors in the woods" /></figure>
+        <figure><img src="assets/images/portrait.webp" alt="Portrait of Jackie Findlay" /></figure>
+      </div>
+    </section>
+
+    <section class="contact-section section" id="contact">
+      <div class="contact-intro">
+        <p class="eyebrow dark">Write to Jackie</p>
+        <h2>Send Jackie a Message</h2>
+        <p>For booking inquiries, collaborations, or simply to say hello, send Jackie a message directly from the website.</p>
+        <div class="contact-direct">
+          <span>Contact / Booking</span>
+          <a href="mailto:jfindlay011@gmail.com">jfindlay011@gmail.com</a>
+        </div>
+      </div>
+
+      <form class="contact-form" action="https://formsubmit.co/jfindlay011@gmail.com" method="POST">
+        <input type="hidden" name="_subject" value="New message from Jackie Findlay website" />
+        <input type="hidden" name="_template" value="table" />
+        <input type="text" name="_honey" tabindex="-1" autocomplete="off" class="honeypot" aria-hidden="true" />
+
+        <div class="form-row">
+          <label>
+            Your Name
+            <input type="text" name="name" autocomplete="name" required />
+          </label>
+          <label>
+            Your Email
+            <input type="email" name="email" autocomplete="email" required />
+          </label>
+        </div>
+
+        <label>
+          Subject
+          <input type="text" name="subject" required />
+        </label>
+
+        <label>
+          Message
+          <textarea name="message" rows="7" required></textarea>
+        </label>
+
+        <div class="form-actions">
+          <button class="button navy" type="submit" id="contactSubmit">Send Message</button>
+          <p class="form-note">Your message will be delivered to Jackie at <strong>jfindlay011@gmail.com</strong>.</p>
+        </div>
+      </form>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-grid">
+      <div>
+        <h2>Stay connected with Jackie</h2>
+        <p>Music, performances and stories — directly from Jackie.</p>
+        <p class="footer-note">Use the contact form above to send Jackie a message directly from the website.</p>
+      </div>
+      <div class="footer-contact">
+        <p class="footer-label">Contact / Booking</p>
+        <a href="mailto:jfindlay011@gmail.com">jfindlay011@gmail.com</a>
+        <div class="footer-socials">
+          <a href="https://www.facebook.com/JackieFindlayMusic" target="_blank" rel="noopener">Facebook</a>
+          <a href="https://www.instagram.com/jackiefindlay1111/" target="_blank" rel="noopener">Instagram</a>
+          <a href="https://www.youtube.com/@jackiefindlay1264" target="_blank" rel="noopener">YouTube</a>
+        </div>
+      </div>
+      <div class="footer-signature"><img src="assets/images/signature.png" alt="Jackie Findlay" /><p>Music changes people ♡</p></div>
+    </div>
+    <div class="footer-bottom"><span>© 2026 Jackie Findlay. All rights reserved.</span><span class="preview-note">Website preview — checkout links will be connected later.</span></div>
+  </footer>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <script src="script.js"></script>
+</body>
+</html>
