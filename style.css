@@ -25,3 +25,5 @@
 .footer-note{max-width:390px;font-style:italic;color:#d8d6cb!important;}
 
 .preview-banner{background:#c9a25f;color:#102d2b;text-align:center;padding:10px 16px;font:700 11px Arial,sans-serif;letter-spacing:.09em;text-transform:uppercase}
+
+.preview-info{margin:-2px 0 18px;color:var(--muted);font:12px Arial,sans-serif;letter-spacing:.04em}
