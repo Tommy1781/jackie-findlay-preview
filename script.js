@@ -1,14 +1,14 @@
 const tracks = [
-  {title:'Billy', file:'', duration:'4:06', buyUrl:'https://payhip.com/b/hmKOA'},
-  {title:'Leaders & The Lead', file:'', duration:'3:28', buyUrl:'https://payhip.com/b/Fe73C'},
-  {title:'Awakening', file:'', duration:'4:26', buyUrl:'https://payhip.com/b/Q3PfJ'},
-  {title:'Incredible Story', file:'', duration:'4:00', buyUrl:'https://payhip.com/b/587BS'},
-  {title:'Sweet Djembe', file:'', duration:'3:52', buyUrl:'https://payhip.com/b/9UyMX'},
-  {title:'Wonder', file:'', duration:'4:03', buyUrl:'https://payhip.com/b/zdQ1Z'},
-  {title:'Heart Song', file:'', duration:'4:36', buyUrl:'https://payhip.com/b/tRf21'},
-  {title:'Saturday', file:'', duration:'3:11', buyUrl:'https://payhip.com/b/XKYwv'},
-  {title:'Wings of Freedom', file:'', duration:'3:45', buyUrl:'https://payhip.com/b/HOSy4'},
-  {title:'Home', file:'', duration:'4:09', buyUrl:'https://payhip.com/b/V7fyB'}
+  {title:'Billy', file:'', duration:'4:06', buyUrl:'https://payhip.com/buy?link=hmKOA'},
+  {title:'Leaders & The Lead', file:'', duration:'3:28', buyUrl:'https://payhip.com/buy?link=Fe73C'},
+  {title:'Awakening', file:'', duration:'4:26', buyUrl:'https://payhip.com/buy?link=Q3PfJ'},
+  {title:'Incredible Story', file:'', duration:'4:00', buyUrl:'https://payhip.com/buy?link=587BS'},
+  {title:'Sweet Djembe', file:'', duration:'3:52', buyUrl:'https://payhip.com/buy?link=9UyMX'},
+  {title:'Wonder', file:'', duration:'4:03', buyUrl:'https://payhip.com/buy?link=zdQ1Z'},
+  {title:'Heart Song', file:'', duration:'4:36', buyUrl:'https://payhip.com/buy?link=tRf21'},
+  {title:'Saturday', file:'', duration:'3:11', buyUrl:'https://payhip.com/buy?link=XKYwv'},
+  {title:'Wings of Freedom', file:'', duration:'3:45', buyUrl:'https://payhip.com/buy?link=HOSy4'},
+  {title:'Home', file:'', duration:'4:09', buyUrl:'https://payhip.com/buy?link=V7fyB'}
 ];
 
 const audio = document.getElementById('audio');
