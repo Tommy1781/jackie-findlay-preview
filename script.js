@@ -1,14 +1,14 @@
 const tracks = [
-  {title:'Billy', file:'', duration:'4:06', buyUrl:'https://payhip.com/buy?link=hmK0A'},
-  {title:'Leaders & The Lead', file:'', duration:'3:28', buyUrl:'https://payhip.com/buy?link=Fe73C'},
-  {title:'Awakening', file:'', duration:'4:26', buyUrl:'https://payhip.com/buy?link=Q3PfJ'},
-  {title:'Incredible Story', file:'', duration:'4:00', buyUrl:'https://payhip.com/buy?link=587BS'},
-  {title:'Sweet Djembe', file:'', duration:'3:52', buyUrl:'https://payhip.com/buy?link=9UyMX'},
-  {title:'Wonder', file:'', duration:'4:03', buyUrl:'https://payhip.com/buy?link=zdQ1Z'},
-  {title:'Heart Song', file:'', duration:'4:36', buyUrl:'https://payhip.com/buy?link=tRf21'},
-  {title:'Saturday', file:'', duration:'3:11', buyUrl:'https://payhip.com/buy?link=XKYwv'},
-  {title:'Wings of Freedom', file:'', duration:'3:45', buyUrl:'https://payhip.com/buy?link=HOSy4'},
-  {title:'Home', file:'', duration:'4:09', buyUrl:'https://payhip.com/buy?link=V7fyB'}
+  {title:'Billy', file:'assets/audio/01-billy-preview.mp3', duration:'4:06', buyUrl:'https://payhip.com/buy?link=hmK0A'},
+  {title:'Leaders & The Lead', file:'assets/audio/02-leaders-and-the-lead-preview.mp3', duration:'3:28', buyUrl:'https://payhip.com/buy?link=Fe73C'},
+  {title:'Awakening', file:'assets/audio/03-awakening-preview.mp3', duration:'4:26', buyUrl:'https://payhip.com/buy?link=Q3PfJ'},
+  {title:'Incredible Story', file:'assets/audio/04-incredible-story-preview.mp3', duration:'4:00', buyUrl:'https://payhip.com/buy?link=587BS'},
+  {title:'Sweet Djembe', file:'assets/audio/05-sweet-djembe-preview.mp3', duration:'3:52', buyUrl:'https://payhip.com/buy?link=9UyMX'},
+  {title:'Wonder', file:'assets/audio/06-wonder-preview.mp3', duration:'4:03', buyUrl:'https://payhip.com/buy?link=zdQ1Z'},
+  {title:'Heart Song', file:'assets/audio/07-heart-song-preview.mp3', duration:'4:36', buyUrl:'https://payhip.com/buy?link=tRf21'},
+  {title:'Saturday', file:'assets/audio/08-saturday-preview.mp3', duration:'3:11', buyUrl:'https://payhip.com/buy?link=XKYwv'},
+  {title:'Wings of Freedom', file:'assets/audio/09-wings-of-freedom-preview.mp3', duration:'3:45', buyUrl:'https://payhip.com/buy?link=HOSy4'},
+  {title:'Home', file:'assets/audio/10-home-preview.mp3', duration:'4:09', buyUrl:'https://payhip.com/buy?link=V7fyB'}
 ];
 
 const audio = document.getElementById('audio');
@@ -44,6 +44,7 @@ mainPlay.addEventListener('click',()=>{
   if(audio.paused){ audio.play(); mainPlay.textContent='Ⅱ'; }
   else { audio.pause(); mainPlay.textContent='▶'; }
 });
+audio.addEventListener('loadedmetadata',()=>{ if(audio.duration) duration.textContent=fmt(audio.duration); });
 audio.addEventListener('play',()=>mainPlay.textContent='Ⅱ');
 audio.addEventListener('pause',()=>mainPlay.textContent='▶');
 audio.addEventListener('timeupdate',()=>{
